@@ -1,0 +1,32 @@
+@import "./variable.scss";
+.signupMain{
+    box-sizing: border-box;
+    background-color: #2F396A;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .signupForm{
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 50px;
+        .fieldMargin{
+            margin-top:50px;
+        }
+        .signUpBtn{
+            margin-top:25px;
+        }
+        h2{
+margin-bottom: 50px;
+text-align: center;
+font-size:40px;
+color: $primary_clr;
+        }
+        p{
+            color: $primary_clr;
+            text-align: right;
+        }
+    }
+
+
+}

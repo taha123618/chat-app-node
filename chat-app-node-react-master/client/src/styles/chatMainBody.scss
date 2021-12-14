@@ -1,0 +1,13 @@
+.mainChatBody{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid grey;
+    height: 90vh;
+    .message{
+        width: 50%;
+    }
+    .user{
+        width: 25%;
+    }
+}
